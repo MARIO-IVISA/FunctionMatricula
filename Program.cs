@@ -11,7 +11,7 @@ class Program
         var host = new HostBuilder()
             .ConfigureServices((context, services) =>
             {
-                var rabbitMQConnectionString = "amqp://guest:guest@localhost:5672/";
+                var rabbitMQConnectionString = "amqp://guest:guest@rabbitmq-service:5672/";
                 var factory = new ConnectionFactory
                 {
                     Uri = new Uri(rabbitMQConnectionString)

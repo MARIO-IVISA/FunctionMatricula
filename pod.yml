@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: azurefunctionpod
+spec:
+  containers:
+  - name: azurefunctionpod
+    image: duarte3108/azurefunction
+    ports:
+    - containerPort: 80

@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "FunctionPreMatricula": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7134"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33198,
+      "useSSL": false
+    }
+  }
+}

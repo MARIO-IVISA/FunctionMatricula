@@ -1,20 +1,15 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Azure Function para Envio de Novas Matrículas
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Tags
+`azure-function` `net6.0` `rabbitmq` `matriculas`
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Este é um Azure Function desenvolvido em .NET 6.0, destinado ao envio de novas matrículas para uma fila RabbitMQ.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Funcionamento
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+O Azure Function é acionado para enviar novas matrículas para uma fila RabbitMQ. Ele recebe os dados da matrícula como entrada e os envia para a fila configurada.
+
+## Tecnologias Utilizadas
+
+- Azure Function (.NET 6.0)
+- RabbitMQ
